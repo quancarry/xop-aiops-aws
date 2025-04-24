@@ -1,0 +1,6 @@
+Sample data : 
+
+metricId,displayName,description,unit,entityType,aggregationTypes,transformations,defaultAggregation,dimensionDefinitions
+builtin:host.cpu.idle,CPU idle,,Percent,[ZONE-AB1X9Y],"{'auto': 87.26, 'min': 17.64, 'avg': 43.87}","['merge', 'parents', 'fold']",avg,"['ZONE:ENTITY-AB1X9Y']"
+builtin:host.cpu.load,System load,,Ratio,[SERVICE-F9Z8W2],"{'max': 92.13, 'sum': 178.3, 'avg': 66.77}","['names', 'merge', 'fold']",avg,"['SERVICE:ENTITY-F9Z8W2']"
+builtin:host.cpu.usage,CPU usage %,Percentage of CPU time currently utilized.,Percent,[HOST-Q8L3V0],"{'auto': 55.02, 'count': 6}","['filter', 'names', 'parents']",avg,"['HOST:ENTITY-Q8L3V0']"
